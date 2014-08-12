@@ -6,8 +6,11 @@ Getting Hardware:
 =================
 The PLX USB3380 is available for about $15. A custom DIY PCB is in progress but not ready yet.
 USB3380 reference boards work fine but need firmware to be flashed. They can be aquired from PLX as part of a costly kit, or bought directly form the distributor, Bplus technologies. All of the below are the same company:
+
 http://www.bplus.com.tw/PLX.html
+
 http://www.hwtools.net/PLX.html
+
 http://www.aliexpress.com/store/group/PLX-Series/706012_250803066.html
 
 Confirmed working:
