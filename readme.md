@@ -2,6 +2,10 @@ Basics:
 ======
 The way it works is that the USB3380 chip has usb endpoints - PCIIN and PCIOUT - that give the usb host the ability to generate any kind of PCIe packet. It doesn't give full control of all header fields, but you can issue mem, io, and cfg reads and writes. Inception only scratches the surface, but is an easy and cool demonstration. Right now it's pretty slow, but i believe that's due to pyusb/libusb and a few other inefficiencies. theoretically it should be able to dump 4gb of memory in a matter of seconds, not 40 minutes.
 
+Video Demo:
+===========
+https://www.youtube.com/watch?v=SvnvOXXAxaI
+
 Getting Hardware:
 =================
 The PLX USB3380 is available for about $15. A custom DIY PCB is in progress but not ready yet.
@@ -66,6 +70,9 @@ Files:
 * ./inception_pci contains a version of inception designed for SLOTSCREAMER
 * ./slotscreamer-test.py is a simple set of test functions ot make sure it works
 
+TODO:
+=====
+We have not thoroughly tested inception for passoword bypass. In the near future, we intend to go through the list of known working OSs that inception can bypass and confirm it works of debug why it doesn't
 
 Changelog:
 =========
