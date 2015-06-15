@@ -33,7 +33,7 @@ Making a SLOTSCREAMER out of a PLX USB3380:
 All the months of toiling trying to prototype with linux usb gadget drivers were overcomplicated and went nowhere.
 If you build an eeprom image all you have to do is set a usb enabled bit after pcie powers up. All the other default settings are actually completely sufficient to make it all work. SLOTSCREAMER.bin is attached. PLX provides windows and linux tools to program the firmware, or you could use a hardware programmer. To use the plx tools:
 
-* download sdk, linux package only, from: http://www.plxtech.com/products/sdk/pde
+* download sdk, linux package only, from: http://www.plxtech.com/products/sdk/ You need to register to get access.
 * unzip, then untar
 * export PLX_SDK_DIR=..pathtofiles/PlxSdk
 * cd PlxSdk/PlxApi
@@ -63,7 +63,8 @@ The PP3380 may have a larger eeprom that requires two-byte addressing, which Plx
 
 Running inception:
 ===============
-After prototyping some pyusb (slotscreamer-test.py) code to read and write memory, i bundled it up inside of inception to see if it really worked.
+Slotscreamer support is now incorporated upstream into inception, so this fork is no longer current.
+https://github.com/carmaa/inception
 
 Files:
 ======
