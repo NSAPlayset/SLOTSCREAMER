@@ -73,7 +73,7 @@ Files:
 
 TODO:
 =====
-We have not thoroughly tested inception for passoword bypass. In the near future, we intend to go through the list of known working OSs that inception can bypass and confirm it works of debug why it doesn't
+We have not thoroughly tested inception for password bypass. In the near future, we intend to go through the list of known working OSs that inception can bypass and confirm it works of debug why it doesn't
 
 Changelog:
 =========
